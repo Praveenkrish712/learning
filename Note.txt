@@ -1,0 +1,17 @@
+HTML - Hyper text markup language
+it use to create a web page
+
+1) Heading - h1 to h6
+
+2) paragraph - p
+hr, br
+
+3) text formating - u,i, mark, sub, sup,b
+
+4)Anchor tag - a
+
+5)image tag - img
+
+6)list - ordered list and unordered list
+
+7)Tables - tr, td, tr
