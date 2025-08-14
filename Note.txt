@@ -15,3 +15,12 @@ hr, br
 6)list - ordered list and unordered list
 
 7)Tables - tr, td, tr
+
+8)forms - label and input
+text, email, password, radio, checkbox, textarea, slector(option), date, time, file, color and button
+
+9)sematic tags - header, section, footer, nav, main, artical, aside
+
+10) media elemets - audio, video and iframe
+
+11) division Tags - div
