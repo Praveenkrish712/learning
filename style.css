@@ -1,0 +1,18 @@
+h3{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    /* text-align: center; */
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 10px;
+}
+
+p{
+    background-image: url(Assets/Screenshot\ 2025-06-11\ 133956.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+

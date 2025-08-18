@@ -8,19 +8,52 @@ hr, br
 
 3) text formating - u,i, mark, sub, sup,b
 
-4)Anchor tag - a
+4) Anchor tag - a
 
-5)image tag - img
+5) image tag - img
 
-6)list - ordered list and unordered list
+6) list - ordered list and unordered list
 
-7)Tables - tr, td, tr
+7) Tables - tr, td, tr
 
-8)forms - label and input
+8) forms - label and input
 text, email, password, radio, checkbox, textarea, slector(option), date, time, file, color and button
 
-9)sematic tags - header, section, footer, nav, main, artical, aside
+9) sematic tags - header, section, footer, nav, main, artical, aside
 
 10) media elemets - audio, video and iframe
 
 11) division Tags - div
+
+
+
+
+
+
+
+CSS - Cascading Style Sheet
+1) Types of CSS - inline, internal, external
+
+inline > internal > external
+
+2) CSS Syntax
+selector { 
+    property : value;
+} 
+
+3) Types of selector
+I - Element selector (p)
+II - class selector (.) multiple
+III - id selector (#) unique
+IV - universal selector (*)
+V - group selector (p) (h1)
+
+4) colors and background
+color
+background-color
+background-image
+background-repeat
+background-size
+background-position
+
+5) text Styling
