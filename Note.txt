@@ -57,3 +57,16 @@ background-size
 background-position
 
 5) text Styling
+
+6) Box modeling
+content,padding,border,margin
+
+7) visibility
+
+8)flex
+I - flex direction - row, row-reverse, column, column-reverse
+II - justify content (Y) - start,end,center,space-between,space-evenly,space-around
+III - Align-items (X) - start,end,center
+IV - wrap - no-wrap, wrap, wrap-reverse
+V - align-content - strech, start,end,center,space-around,space-between,space-evenly
+VI - gap
