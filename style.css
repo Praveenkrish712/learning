@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.redbox{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin-top: 50px;
+    position: relative;
+}
+
+.bluebox{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: sticky;
+    top: 0;
+}
