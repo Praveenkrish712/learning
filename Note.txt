@@ -71,10 +71,11 @@ IV - wrap - no-wrap, wrap, wrap-reverse
 V - align-content - strech, start,end,center,space-around,space-between,space-evenly
 VI - gap
 VII - grow
-VIII - shrink *
-IX - order
+VIII - shrink 
+IX - order 
 
 9) position
 static, relative, absolute, fixed, sticky
 
-
+10) Grid
+2 - dimensional layout system.
