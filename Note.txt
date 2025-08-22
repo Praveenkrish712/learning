@@ -79,3 +79,12 @@ static, relative, absolute, fixed, sticky
 
 10) Grid
 2 - dimensional layout system.
+
+11) Transition and animation
+Transition - Transition duration, transition property, transition timing function, transition delay
+animation - animation name, animation duration, animation fill mode, animation itration count, (Key frames, 10%, 50%, 100%)
+
+12) Media queries ( Responsive design)
+mobile - 320px - 600px
+Tab - 601px - 800px
+lap/desktop - 801px <=

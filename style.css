@@ -1,83 +1,63 @@
-body{
-    background-color: aqua;
-}
-
 .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
-    gap: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    transition-duration: 3s;
+    /* transition-property: width; */
+    transition-timing-function: cubic-bezier(0,-0.29, 0,-0.35);
+    /* transition-delay: 2s; */
 }
 
-.para{
-    padding: 20px;
+.container:hover{
     background-color: crimson;
-    color: white;
+    width: 600px;
+    transform: translateX(20px);
 }
 
-.outerbox{
-    display: grid;
-    margin: 20px;
-    grid-template-columns: repeat(4,1fr);
-    gap: 20px;
-    grid-auto-flow: row;
-    grid-template-rows: 100px 200px 100px;
-    grid-auto-rows: 200px;
-}
 
 .box{
-    background-color: green;
-    color: white;
-    font-size: 50px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-
-.box1{
-    grid-column: span 4;
-}
-
-.box2{
-    grid-row: span 3;
-}
-
-
-.layout > div{
-    border: 2px solid black;
+    width: 100px;
+    height: 100px;
     background-color: coral;
-    font-size: 50px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    position: relative;
+
 }
 
-.layout{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: 10vh 80vh 10vh;
-    grid-template-areas: 
-    " h h h h h "
-    " sb1  m m m sb2"
-    " f f f f f ";
+
+@keyframes circle {
+    50%{
+        background-color: green;
+        width: 50px;
+        height: 50px;
+        left: 100px;
+        top: 100px;
+    }
+    100%{
+        background-color: gold;
+        width: 300px;
+        height: 300px;
+        left: 500px;
+        top: 500px;
+    }
 }
 
-.header{
-    grid-area: h;
-}
 
-.sidebar1{
-    grid-area: sb1;
-}
 
-.main{
-    grid-area: m;
-}
 
-.sidebar2{
-    grid-area: sb2;
+@media (max-width:600px) {
+    .para1{
+        background-color: coral;
+        width: 50%;
+    }
 }
-
-.footer{
-    grid-area: f;
-}
+@media (max-width: 400px){
+    .para2{
+        width: 70%;
+        background-color: gold;
+    }
+ }
