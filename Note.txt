@@ -85,6 +85,6 @@ Transition - Transition duration, transition property, transition timing functio
 animation - animation name, animation duration, animation fill mode, animation itration count, (Key frames, 10%, 50%, 100%)
 
 12) Media queries ( Responsive design)
-mobile - 320px - 600px
-Tab - 601px - 800px
-lap/desktop - 801px <=
+mobile - 320px - 600px,
+Tab - 601px - 800px,
+lap/desktop - 801px <= 
